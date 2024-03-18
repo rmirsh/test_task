@@ -2,7 +2,7 @@
 
 This is a simple terminal utility for getting weather by your city name.
 
-### Installation
+### Usage 
 
 You can simply git clone this repo:
 ```terminal

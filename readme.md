@@ -19,7 +19,7 @@ Give it name of your town:
 Enter your city name: Moscow
 ```
 
-Here is your weather!:
+Your weather will be displayed in this format - "{city_name}\_{date}\_{temperature}":
 ```terminal
 Moscow_2024-03-18 15:14:28.694166_3.35
 ```

@@ -8,6 +8,7 @@ import config
 
 
 class WeatherGetter:
+    '''Interface for requesting Open Weather API'''
 
     def __init__(self, city_name: str) -> None:
         self.city_name = city_name
@@ -29,6 +30,7 @@ class WeatherGetter:
 
 
 class TextLogger:
+    '''Interface for logging'''
    
     def __init__(self, file: Path):
         self._file = file 
@@ -41,6 +43,7 @@ class TextLogger:
 
 
 class WeatherService:
+    '''Class that compose weather API with text logging'''
 
     def __init__(self):
         self.city_name = self._ask_city_name()

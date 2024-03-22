@@ -60,12 +60,4 @@ class WeatherService:
     def _ask_city_name(self) -> str:
         city_name = input("Enter your city name: ")
         return city_name.lower() 
-
-
-
-
-
-
-
-
         
